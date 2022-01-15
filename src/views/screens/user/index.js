@@ -2,8 +2,7 @@ import React, { useCallback, useEffect, useState } from 'react';
 import { FlatList, Image, RefreshControl, ScrollView, Text, ToastAndroid, TouchableOpacity, View } from 'react-native';
 import { url } from '../../../utils/Constants';
 import { dataMaps } from '../../../utils/Mock';
-import { CHeader, CText } from '../../components';
-import Maps from '../../components/maps';
+import { CHeader, CText, Maps } from '../../components';
 import { styles } from './style';
 
 const User = ({ navigation }) => {
